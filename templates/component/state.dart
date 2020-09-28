@@ -1,13 +1,18 @@
 import 'package:fish_redux/fish_redux.dart';
 
-class $nameState implements Cloneable<$nameState> {
+class $nameComponentState implements Cloneable<$nameComponentState> {
 
   @override
-  $nameState clone() {
-    return $nameState();
+  $nameComponentState clone() {
+    return $nameComponentState();
+  }
+  
+  @override
+  String toString() {
+    return '$nameComponentState{}';
   }
 }
 
-$nameState initState(Map<String, dynamic> args) {
-  return $nameState();
+$nameComponentState initState(Map<String, dynamic> args) {
+  return $nameComponentState();
 }

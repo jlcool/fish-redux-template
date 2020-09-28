@@ -5,15 +5,15 @@ import 'reducer.dart';
 import 'state.dart';
 import 'view.dart';
 
-class $nameComponent extends Component<$nameState> {
+class $nameComponent extends Component<$nameComponentState> {
   $nameComponent()
       : super(
             effect: buildEffect(),
             reducer: buildReducer(),
             view: buildView,
-            dependencies: Dependencies<$nameState>(
+            dependencies: Dependencies<$nameComponentState>(
                 adapter: null,
-                slots: <String, Dependent<$nameState>>{
+                slots: <String, Dependent<$nameComponentState>>{
                 }),);
 
 }

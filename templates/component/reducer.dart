@@ -3,15 +3,15 @@ import 'package:fish_redux/fish_redux.dart';
 import 'action.dart';
 import 'state.dart';
 
-Reducer<$nameState> buildReducer() {
+Reducer<$nameComponentState> buildReducer() {
   return asReducer(
-    <Object, Reducer<$nameState>>{
-      $nameAction.action: _onAction,
+    <Object, Reducer<$nameComponentState>>{
+      $nameComponentAction.action: _onAction,
     },
   );
 }
 
-$nameState _onAction($nameState state, Action action) {
-  final $nameState newState = state.clone();
+$nameComponentState _onAction($nameComponentState state, Action action) {
+  final $nameComponentState newState = state.clone();
   return newState;
 }

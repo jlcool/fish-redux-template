@@ -5,18 +5,18 @@ import 'reducer.dart';
 import 'state.dart';
 import 'view.dart';
 
-class $namePage extends Page<$nameState, Map<String, dynamic>> {
+class $namePage extends Page<$namePageState, Map<String, dynamic>> {
   $namePage()
       : super(
             initState: initState,
             effect: buildEffect(),
             reducer: buildReducer(),
             view: buildView,
-            dependencies: Dependencies<$nameState>(
+            dependencies: Dependencies<$namePageState>(
                 adapter: null,
-                slots: <String, Dependent<$nameState>>{
+                slots: <String, Dependent<$namePageState>>{
                 }),
-            middleware: <Middleware<$nameState>>[
+            middleware: <Middleware<$namePageState>>[
             ],);
 
 }

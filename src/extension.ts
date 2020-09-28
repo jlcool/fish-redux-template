@@ -101,7 +101,7 @@ export function activate(context: vscode.ExtensionContext) {
             return;
           }
           window
-            .showQuickPick(['dynamic', 'static', 'custom'], {
+            .showQuickPick(['source', 'dynamic', 'static', 'custom'], {
               canPickMany: false,
               ignoreFocusOut: true,
               placeHolder: 'Please select adapter type',
