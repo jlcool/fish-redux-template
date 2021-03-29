@@ -13,8 +13,10 @@ class $namePage extends Page<$namePageState, Map<String, dynamic>> {
             reducer: buildReducer(),
             view: buildView,
             dependencies: Dependencies<$namePageState>(
+                // adapter: NoneConn<$namePageState>() + $nameAdapter(),
                 adapter: null,
                 slots: <String, Dependent<$namePageState>>{
+                  // "$name": $nameConnector() +$nameComponent(),
                 }),
             middleware: <Middleware<$namePageState>>[
             ],);

@@ -7,6 +7,21 @@ class $namePageState implements GlobalBaseState, Cloneable<$namePageState> {
   $namePageState clone() {
     return $namePageState();
   }
+
+  // @override
+  // StoreModel store;
+
+  // @override
+  // Object getItemData(int index) => datas[index];
+
+  // @override
+  // String getItemType(int index) => $nameAdapter.$name;
+
+  // @override
+  // int get itemCount => datas?.length ?? 0;
+
+  // @override
+  // void setItemData(int index, Object data) => datas[index] = data;
 }
 
 $namePageState initState(Map<String, dynamic> args) {
