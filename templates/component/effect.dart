@@ -8,5 +8,5 @@ Effect<$nameComponentState> buildEffect() {
   });
 }
 
-void _onInit(Action action, Context<$namePageState> ctx) {
+void _onInit(Action action, Context<$nameComponentState> ctx) {
 }
