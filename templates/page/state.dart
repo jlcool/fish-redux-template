@@ -8,6 +8,8 @@ class $namePageState implements GlobalBaseState, Cloneable<$namePageState> {
     return $namePageState();
   }
 
+  // List<$nameComponentState> datas;
+  
   // @override
   // StoreModel store;
 
