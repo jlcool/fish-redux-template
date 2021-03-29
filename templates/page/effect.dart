@@ -4,9 +4,9 @@ import 'state.dart';
 
 Effect<$namePageState> buildEffect() {
   return combineEffects(<Object, Effect<$namePageState>>{
-    $namePageAction.action: _onAction,
+    Lifecycle.initState: _onInit
   });
 }
 
-void _onAction(Action action, Context<$namePageState> ctx) {
+void _onInit(Action action, Context<$namePageState> ctx) {
 }

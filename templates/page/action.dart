@@ -1,10 +1,10 @@
 import 'package:fish_redux/fish_redux.dart';
 
 //TODO replace with your own action
-enum $namePageAction { action }
+enum $namePageAction { onRefresh }
 
 class $namePageActionCreator {
-  static Action onAction() {
-    return const Action($namePageAction.action);
+  static Action onRefresh() {
+    return const Action($namePageAction.onRefresh);
   }
 }
