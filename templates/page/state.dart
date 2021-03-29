@@ -1,5 +1,6 @@
 import 'package:fish_redux/fish_redux.dart';
 
+//使用ListView需要这个继承方法extends MutableSource
 class $namePageState implements GlobalBaseState, Cloneable<$namePageState> {
 
   @override
