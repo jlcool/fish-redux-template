@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'action.dart';
 import 'state.dart';
 
+//viewService.buildComponent(""); //slots
+
 // final ListAdapter adapter = viewService.buildAdapter();
 // ListView.separated(
 //                   separatorBuilder: (BuildContext context, int index) =>
@@ -12,6 +14,7 @@ import 'state.dart';
 //                       ),
 //                   itemBuilder: adapter.itemBuilder,
 //                   itemCount: adapter.itemCount)
-Widget buildView($namePageState state, Dispatch dispatch, ViewService viewService) {
+Widget buildView(
+    $namePageState state, Dispatch dispatch, ViewService viewService) {
   return Container();
 }
